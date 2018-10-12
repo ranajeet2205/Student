@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginLeft="32dp"
-    android:layout_marginRight="32dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+
     tools:context=".EditorActivity">
 
     <LinearLayout
@@ -23,7 +24,7 @@
                 android:id="@+id/roll_txt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Student Roll Number"
+                android:hint="@string/student_roll_number"
                 android:inputType="text" />
         </android.support.design.widget.TextInputLayout>
 
@@ -37,7 +38,7 @@
                 android:id="@+id/name_txt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Student Name"
+                android:hint="@string/student_name"
                 android:inputType="text" />
         </android.support.design.widget.TextInputLayout>
 
